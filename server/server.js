@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import path from 'path';
 
-const APP_PORT = 4000;
+const APP_PORT = process.env.PORT || 4000;
 const BUILD_FOLDER = '../build';
 const app = express();
 
