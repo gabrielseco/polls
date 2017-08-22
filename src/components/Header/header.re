@@ -2,7 +2,7 @@
 
 let component = ReasonReact.statelessComponent "Header";
 
-let make ::title="Giphy" _children => {  
+let make ::title _children => {  
   {
     ...component,
     render: fun self =>
