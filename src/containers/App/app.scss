@@ -1,0 +1,12 @@
+@import  "./../../scss/mixins/flexbox";
+@import  "./../../scss/variables/colors";
+
+.root {
+  @include flexbox();
+  @include flex-dir(column);
+  min-height: 100vh;
+}
+
+.main{
+  flex: 1;
+}

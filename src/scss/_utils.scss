@@ -1,0 +1,15 @@
+.flex {
+  @include flexbox();
+}
+
+.flex-end {
+  @include justify-content(flex-end);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.center {
+  @include align-items(center);
+}

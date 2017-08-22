@@ -1,0 +1,21 @@
+{
+  "name": "reason-scripts",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        "containers/App", 
+        "components/Header",
+        "components/Footer",
+        "components/FontAwesome"
+      ]
+    }
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "bs-jest"
+  ],
+  "reason": {
+    "react-jsx": 2
+  }
+}

@@ -1,0 +1,10 @@
+@import  "./../../scss/mixins/flexbox";
+@import  "./../../scss/variables/colors";
+
+.header{
+ @include flexbox(); 
+ @include justify-content(center);
+ background: $primary-bg-color;
+ color: $primary-text-color;
+ text-transform: uppercase;
+}
