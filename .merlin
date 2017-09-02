@@ -10,6 +10,8 @@ S /Users/usuario/polls-app/node_modules/bs-jest/lib/ocaml
 B /Users/usuario/polls-app/node_modules/bs-jest/lib/ocaml
 S src
 B lib/bs/src
+S src/components/PollsList
+B lib/bs/src/components/PollsList
 S src/components/FontAwesome
 B lib/bs/src/components/FontAwesome
 S src/components/Footer

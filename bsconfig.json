@@ -1,5 +1,6 @@
 {
   "name": "reason-scripts",
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],  
   "sources": [
     {
       "dir": "src",
@@ -7,7 +8,9 @@
         "containers/App", 
         "components/Header",
         "components/Footer",
-        "components/FontAwesome"
+        "components/FontAwesome",
+        "components/PollsList"
+        
       ]
     }
   ],

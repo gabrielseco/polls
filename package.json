@@ -8,7 +8,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-fontawesome": "^1.6.1",
-    "reason-scripts": "0.6.6"
+    "reason-scripts": "0.6.8"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -28,6 +28,6 @@
   "devDependencies": {
     "bs-jest": "^0.1.0",
     "open": "^0.0.5",
-    "reason-react": "^0.2.3"
+    "reason-react": "^0.2.4"
   }
 }
