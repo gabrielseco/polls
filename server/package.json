@@ -1,4 +1,3 @@
-
 {
   "name": "Polls",
   "version": "1.0.0",
@@ -6,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --require 'babel-register' server.js"
+    "start": "node --require 'babel-register' server.js",
+    "dev": "nodemon --require 'babel-register' server.js "
   },
   "author": "Gabriel García",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "babel-eslint": "^7.1.1",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
   }
 }

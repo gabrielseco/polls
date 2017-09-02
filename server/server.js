@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import path from 'path';
+import { default as userRoutes } from './auth';
 
 const APP_PORT = process.env.PORT || 4000;
 const BUILD_FOLDER = '../build';
@@ -22,6 +23,8 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, `../${BUILD_FOLDER}/index.html`));
 });
+
+userRoutes(app);
 
 app.listen(APP_PORT, () => {
   console.log(`App listening on port ${APP_PORT}`); // eslint-disable-line no-console
