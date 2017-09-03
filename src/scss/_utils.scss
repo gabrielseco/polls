@@ -13,3 +13,7 @@
 .center {
   @include align-items(center);
 }
+
+.white {
+  color: $white;
+}

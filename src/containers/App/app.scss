@@ -6,7 +6,9 @@
   @include flex-dir(column);
   min-height: 100vh;
 }
-
+ 
 .main{
+  background: url('./../../img/bg-night-king.jpg') no-repeat center center fixed;
+  background-size: cover;
   flex: 1;
 }

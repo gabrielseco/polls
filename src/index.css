@@ -393,3 +393,6 @@ th {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center; }
+
+.white {
+  color: #FFFFFF; }

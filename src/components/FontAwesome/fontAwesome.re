@@ -2,10 +2,11 @@ external myFontAwesome : ReasonReact.reactClass = "./../../../node_modules/react
 
 let component = ReasonReact.statelessComponent "FontAwesome";
 
-let make ::name children =>
+let make ::name ::className=?  children =>
   ReasonReact.wrapJsForReason
     reactClass::myFontAwesome
     props::{
-      "name": name
+      "name": name,
+      "className": className
     }
     children;

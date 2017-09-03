@@ -7,7 +7,7 @@ const routes = (app) => {
     authService.auth();
   });
 
-  app.get('/signup', (req, res) => {
+  app.post('/signup', (req, res) => {
     authService = AuthService(req, res);
     authService.signUp();
   });
